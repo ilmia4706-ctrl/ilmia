@@ -31,11 +31,14 @@
 .project-emoji {
   font-size: 5rem;
   transition: var(--transition-bounce);
+    color:black
+
 }
 
 .project-card:hover .project-emoji {
   transform: scale(1.3) rotate(10deg);
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+  color:black
 }
 
 .project-overlay {
@@ -65,7 +68,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-primary);
+  color: purple;
   transition: var(--transition-bounce);
   transform: translateY(20px);
   opacity: 0;

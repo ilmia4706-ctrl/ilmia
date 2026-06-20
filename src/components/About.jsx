@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import girl from '/girl.avif';
 
 const About = () => {
   const stats = [
@@ -19,7 +20,8 @@ const About = () => {
             <div className="about-image-container">
               <div className="about-image">
                 <div className="image-placeholder">
-                  <span>🎯</span>
+                                  <span><img src={girl} style={{marginTop: '200px'}}/></span>
+                  
                 </div>
               </div>
               <div className="experience-badge float-animation">

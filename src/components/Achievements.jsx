@@ -57,7 +57,7 @@ const Achievements = () => {
             {activities.map((activity, index) => (
               <div key={index} className="activity-item">
                 <span className="activity-icon">{activity.icon}</span>
-                <span className="activity-text">{activity.text}</span>
+                <span className="activity-text" style={{color:"black"}}>{activity.text}</span>
               </div>
             ))}
           </div>

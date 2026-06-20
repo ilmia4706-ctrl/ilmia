@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import girl from '/girl.avif';
 import './Hero.css';
 
 const Hero = () => {
@@ -86,7 +87,7 @@ const Hero = () => {
             <div className="image-backdrop"></div>
             <div className="profile-image">
               <div className="image-placeholder">
-                <span>II</span>
+                <span><img src={girl} style={{marginTop: '200px'}}/></span>
               </div>
             </div>
             <div className="floating-badge badge-1 float-animation">
