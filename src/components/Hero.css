@@ -185,7 +185,7 @@
   align-items: center;
   gap: 8px;
   padding: 12px 18px;
-  background: var(--glass-bg);
+  background: transparent;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--glass-border);
