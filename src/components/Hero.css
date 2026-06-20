@@ -194,7 +194,7 @@
   font-size: 0.9rem;
   font-weight: 600;
   white-space: nowrap;
-  color: var(--text-primary);
+  color: black;
   transition: var(--transition-smooth);
 }
 
