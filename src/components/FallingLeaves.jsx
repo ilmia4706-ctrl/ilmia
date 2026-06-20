@@ -6,7 +6,7 @@ const FallingLeaves = () => {
 
   useEffect(() => {
     const leafColors = ['#E6E6FA', '#FCE7F3', '#87CEEB', '#98FB98', '#FBCFE8'];
-    const leafShapes = ['🍃', '🌸', '✿', '❀', '🌺'];
+    const leafShapes = [ '✿', '❀' ];
     
     const createLeaves = () => {
       const newLeaves = [];
