@@ -6,7 +6,7 @@ const Education = () => {
     {
       degree: 'B.E. Computer Science Engineering',
       institution: 'Arunachala College of Engineering for Women',
-      period: '2022 - Present',
+      period: '2026 - Present',
       status: 'Pre-Final Year',
       icon: '🎓',
       highlights: ['Strong academic performance', 'Active in technical activities', 'Pursuing Full Stack Development']
@@ -17,7 +17,7 @@ const Education = () => {
       period: 'Completed',
       status: '84%',
       icon: '📚',
-      highlights: ['Computer Science stream', 'Consistent academic record']
+      highlights: ['Mathematics', 'Consistent academic record']
     },
     {
       degree: 'Secondary School (SSLC)',
